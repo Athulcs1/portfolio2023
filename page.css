@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+/* body{
+    overflow: hidden;
+ } */
+ *{
+    background-color: #f3f5f8;
+ }
+ .container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f3f5f8;
+   
+}
+nav{
+display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+}
+.logo img{
+width: 100px;
+height: 90px;
+}
+ .navItems{
+ display: flex;
+ }
+.navItems li{
+list-style: none;
+ margin: 0 15px;
+}
+.navItems li a{
+font-size: 25px;
+ color: #ab35e6;
+ letter-spacing: 3px;
+ text-decoration: none;
+text-transform: capitalize;
+}
+ .navItems li:hover a,
+ .Links a:hover{
+color: #fb2e13;
+}
+
+
+.links i:hover{
+    color: rgb(243, 19, 11);
+}
+.Links a{
+font-size: 30px;
+color:#ab35e6;
+ margin: 25px 10px;
+
+}
+.wrapper{
+display: flex;
+width: 100%;
+height: 100%;
+justify-content: center;
+align-items: center;
+padding: 10%;
+overflow: hidden;
+ }
+.cols{
+width:50%; 
+}
+ .topline{
+display: block;
+position: relative;
+font-size: 35px;
+letter-spacing: 5px;
+color: #3d535f;
+
+ }
+ topline::after{
+ position: absolute;
+content:'';
+height: 4px;
+width: 45px;
+bottom: 10px;
+background-color: #aa10f7;
+}
+h1{
+    display: block; 
+    font-size: 5em;
+    font-weight: 700;
+    color: #3d535f;
+}
+.multiText{
+color: #ab35e6;
+ text-transform: capitalize;
+}
+p{
+display: block;
+width: 90%;
+font-size: 1.2em;
+color: #3d535f;
+ }
+
+.down{
+font-size: 25px;
+font-weight: 400;
+color: #fff;
+ background-color: #3d535f;
+padding: 8px 14px;
+margin: 60px 5px;
+letter-spacing: 2px;
+text-transform: capitalize;
+box-shadow: 0 15px 10px rgb(113, 113, 113);
+text-decoration: none;
+}
+.down:hover{
+background-color: #e9bcef;
+}
+
+.imgbox{
+position: relative;
+width: 1%;
+height: 2%;
+}
+ .imgbox #boy{
+    top: 30%;
+    left: 50%;
+    mix-blend-mode: darken;
+    width: 360px;
+    
+ }
+
+
+#about{
+    margin-left: 8%;
+    margin-top: 8%;
+    margin-right: 8%;
+
+    
+}
+.heading{
+    text-align: center;
+}
+.heading{
+    font-size: 35px;
+    
+}
+.heading span{
+    font-size: 22px;
+    color:#ab35e6;
+}
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.about-img img{
+    width: 45%;
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 100px #ab35e6);
+}
+.about-text{
+    font-size:18px ;
+    font-weight: 600;
+    text-align: left;
+    margin-left:;
+}
+.information{
+    margin: 1rem 0 1.4;
+}
+.information .info-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+
+}
+.information .info-box span{
+    font-weight: 600;
+    margin-left: 10px;
+    color:#ab35e6 ;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+#skills{
+    margin-left: 8%;
+    margin-top: 13%;
+    margin-right: 8%;
+}
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+}
+.skill-img img{
+    margin: 200px;
+    width: 70%;
+    border-radius: 30px;
+    object-position: center;
+    /* box-shadow: 10px 10px 10px #ab35e6 ; */
+    filter: drop-shadow(10px 10px 100px #ab35e6);
+    
+   
+}
+.bar-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 16px;
+}
+.bar-box h2{
+    font-size: 25px;
+    font-weight: 800;
+}
+.bar-box span{
+    font-size: 23px;
+    font-weight: 700px;
+}
+.light-bar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: rgb(238, 142, 142);
+    border-radius: 8px;
+}
+.percentage-bar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: #c156f6;
+    border-radius: 8px;
+
+}
+.html-bar{
+    width: 96%;
+}
+.css-bar{
+    width: 94%;
+
+}
+.js-bar{
+    width: 90%;
+}           
+.angular-bar{
+    width: 85%;
+}
+#contact{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 13%;
+}
+.iconDiv{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon{ 
+   width:50px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color:#b744e9; */
+    
+    margin: 0 10px;
+    color: rgb(68, 67, 70);
+    
+}
+.icon a{
+    color: rgb(217, 46, 46);
+}
+.icon i{
+    font-size: 30px;
+
+}
